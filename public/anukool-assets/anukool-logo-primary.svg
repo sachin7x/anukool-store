@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" fill="none">
+  <!-- Anukool (अनुकूल) Brand Logo Asset -->
+  <defs>
+    <filter id="subtle-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#2E3A8A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Wooden Stamp Motif Icon -->
+  <g transform="translate(16, 20)">
+    <!-- Base Hexagonal Motif / Wooden Block -->
+    <rect x="0" y="0" width="80" height="80" rx="18" fill="#2E3A8A" filter="url(#subtle-shadow)"/>
+    <rect x="4" y="4" width="72" height="72" rx="14" fill="#F8F4E9" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="3 3"/>
+    
+    <!-- Central Lotus / Mandala Stamp Petals -->
+    <circle cx="40" cy="40" r="10" fill="#C75B39"/>
+    <!-- Petals -->
+    <path d="M40 18 C46 28 46 32 40 34 C34 32 34 28 40 18 Z" fill="#2E3A8A"/>
+    <path d="M40 62 C46 52 46 48 40 46 C34 48 34 52 40 62 Z" fill="#2E3A8A"/>
+    <path d="M18 40 C28 46 32 46 34 40 C32 34 28 34 18 40 Z" fill="#2E3A8A"/>
+    <path d="M62 40 C52 46 48 46 46 40 C48 34 52 34 62 40 Z" fill="#2E3A8A"/>
+    
+    <!-- Diagonals -->
+    <circle cx="27" cy="27" r="4.5" fill="#D4AF37"/>
+    <circle cx="53" cy="27" r="4.5" fill="#D4AF37"/>
+    <circle cx="27" cy="53" r="4.5" fill="#D4AF37"/>
+    <circle cx="53" cy="53" r="4.5" fill="#D4AF37"/>
+  </g>
+
+  <!-- Sanskrit Devanagari Script: अनुकूल -->
+  <text x="116" y="42" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="700" letter-spacing="3" fill="#C75B39">अनुकूल ✦ JAIPUR</text>
+
+  <!-- Main Wordmark: anukool. -->
+  <text x="114" y="86" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="900" letter-spacing="-1.5" fill="#2E3A8A">
+    anu<tspan fill="#C75B39">kool</tspan><tspan fill="#D4AF37">.</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="116" y="104" font-family="'Lato', 'Manrope', sans-serif" font-size="10.5" font-weight="800" letter-spacing="2.8" fill="#68865D">
+    CRAFTED FOR CONNECTION
+  </text>
+</svg>

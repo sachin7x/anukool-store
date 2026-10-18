@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0.0",
+  "protocol": "agentic-commerce/v1",
+  "merchant": {
+    "sellerName": "Anukool (अनुकूल) — Crafted for Connection",
+    "parentEntity": "M/s V K Enterprises, Jaipur",
+    "sellerStoreUrl": "https://anukool.in",
+    "sellerTermsOfServiceUrl": "https://anukool.in/#terms",
+    "sellerPrivacyPolicyUrl": "https://anukool.in/#privacy",
+    "sellerContactEmail": "hello@anukool.in",
+    "originCity": "Jaipur",
+    "originState": "Rajasthan",
+    "originCountry": "IN"
+  },
+  "catalog": {
+    "productCount": 22,
+    "primaryCraft": "Jaipur Traditional Wooden Hand Block-Printing & DIY Fabric Kits",
+    "supportedCurrencies": [
+      "INR",
+      "USD",
+      "GBP",
+      "EUR",
+      "AED",
+      "CAD"
+    ],
+    "defaultCurrency": "INR",
+    "categories": [
+      "Gifting & Fabric",
+      "Home Decor",
+      "Art & Craft",
+      "Food",
+      "Care & Fragrance",
+      "Paper & Books"
+    ],
+    "feedUrl": "/api/agentic/feed.json",
+    "llmsTxtUrl": "/llms.txt"
+  },
+  "fulfillment": {
+    "serviceableCountries": [
+      "IN",
+      "US",
+      "GB",
+      "EU",
+      "AE",
+      "CA"
+    ],
+    "freeShippingThresholdINR": 999,
+    "domesticStandardRateINR": 99,
+    "domesticEstimatedDays": "3-7 business days",
+    "metroEstimatedDays": "3-4 business days",
+    "supportedCarriers": [
+      "Delhivery Express",
+      "BlueDart Surface",
+      "India Post Speed Post"
+    ],
+    "returnWindowDays": 7,
+    "returnPolicyDescription": "Unused kits in original packaging accepted within 7 days of delivery. Free replacement for damaged items reported within 48 hours."
+  },
+  "securityAndPayment": {
+    "merchantOfRecord": true,
+    "paymentModel": "tokenized_psp_authorization",
+    "tokenRequirements": {
+      "type": "single_use_bearer_token",
+      "expirationSeconds": 900,
+      "amountConstrained": true,
+      "currencyBound": true
+    },
+    "supportedPSPs": [
+      "Razorpay",
+      "Stripe",
+      "Cashfree"
+    ]
+  },
+  "agentInterface": {
+    "tools": [
+      {
+        "name": "search_kits",
+        "description": "Semantic search and filtering of Anukool artisanal DIY craft kits by occasion, budget, category, or recipient.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string", "description": "Search keyword or user query" },
+            "occasion": { "type": "string", "description": "e.g. Diwali, Rakhi, Birthday, Mindful Making" },
+            "maxPrice": { "type": "number", "description": "Maximum price in selected currency" },
+            "currency": { "type": "string", "enum": ["INR", "USD", "GBP", "EUR", "AED", "CAD"], "default": "INR" },
+            "category": { "type": "string" }
+          }
+        }
+      },
+      {
+        "name": "get_kit_details",
+        "description": "Retrieve comprehensive product tailoring details, material compositions, wooden block motifs, and box contents for a specific kit.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "skuOrId": { "type": "string", "description": "Product ID or ANK SKU (e.g. 1 or ANK-BP-001)" }
+          },
+          "required": ["skuOrId"]
+        }
+      },
+      {
+        "name": "estimate_shipping",
+        "description": "Calculate exact shipping rates, delivery dates, and threshold gaps for a given cart and destination address.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "postalCode": { "type": "string", "description": "Destination PIN or postal code" },
+            "country": { "type": "string", "default": "IN" },
+            "subtotal": { "type": "number", "description": "Cart subtotal in target currency" },
+            "currency": { "type": "string", "default": "INR" }
+          },
+          "required": ["postalCode", "subtotal"]
+        }
+      },
+      {
+        "name": "create_agentic_order",
+        "description": "Execute autonomous checkout on behalf of customer using a single-use authorized payment token.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "number" },
+                  "quantity": { "type": "number" }
+                },
+                "required": ["id", "quantity"]
+              }
+            },
+            "shippingAddress": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "email": { "type": "string" },
+                "phone": { "type": "string" },
+                "address": { "type": "string" },
+                "city": { "type": "string" },
+                "postalCode": { "type": "string" },
+                "country": { "type": "string", "default": "IN" }
+              },
+              "required": ["name", "email", "address", "city", "postalCode"]
+            },
+            "currency": { "type": "string", "default": "INR" },
+            "paymentToken": { "type": "string", "description": "Single-use authorization token generated by AI platform" }
+          },
+          "required": ["items", "shippingAddress", "paymentToken"]
+        }
+      }
+    ]
+  }
+}

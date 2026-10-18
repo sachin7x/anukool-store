@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2E3A8A" />
+    <meta name="color-scheme" content="light" />
+    
+    <title>Anukool — Crafted for Connection | Block-Printed DIY Craft Kits</title>
+    <meta name="description" content="Guided block-printed fabric craft kits from Jaipur. Create meaningful handmade gifts for Diwali, Rakhi, birthdays, and every moment worth celebrating." />
+    
+    <!-- OpenGraph & WhatsApp Social Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Anukool" />
+    <meta property="og:title" content="Anukool — Crafted for Connection | Jaipur Artisan Craft Kits" />
+    <meta property="og:description" content="Experience the joy of making. Guided block-printed fabric craft kits from Jaipur artisans (V K Enterprises)." />
+    <meta property="og:image" content="/anukool-hero.svg" />
+    <meta property="og:url" content="https://anukool.in" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Anukool — Crafted for Connection" />
+    <meta name="twitter:description" content="Block-printed kits from Jaipur's artisan workshops. Create beautiful handmade gifts." />
+    <meta name="twitter:image" content="/anukool-hero.svg" />
+
+    <!-- Favicon & PWA App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/anukool-favicon.svg" />
+    <link rel="apple-touch-icon" href="/anukool-favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Anukool" />
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+
+    <!-- Google Fonts with Display Swap for Fast First Paint -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&family=Manrope:wght@400..800&family=Playfair+Display:ital,wght@0,600..900;1,600..900&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data for E-Commerce & Brand -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "Anukool",
+      "alternateName": "अनुकूल",
+      "description": "Block-printed DIY fabric craft kits from Jaipur artisans. Crafted for connection.",
+      "url": "https://anukool.in",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "V K Enterprises",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
+          "addressCountry": "IN"
+        }
+      },
+      "priceRange": "₹599 - ₹3,499",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "UPI, Credit Card, Debit Card, Net Banking"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

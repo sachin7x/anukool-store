@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Rounded Base in Indigo Deep -->
+  <rect width="128" height="128" rx="28" fill="#2E3A8A"/>
+  <!-- Gold Stitched Border -->
+  <rect x="8" y="8" width="112" height="112" rx="20" fill="#F8F4E9" stroke="#D4AF37" stroke-width="2" stroke-dasharray="4 3"/>
+  
+  <!-- Central Hand Block Motif -->
+  <circle cx="64" cy="64" r="14" fill="#C75B39"/>
+  <!-- 4 Cardinal Petals -->
+  <path d="M64 28 C73 44 73 50 64 54 C55 50 55 44 64 28 Z" fill="#2E3A8A"/>
+  <path d="M64 100 C73 84 73 78 64 74 C55 78 55 84 64 100 Z" fill="#2E3A8A"/>
+  <path d="M28 64 C44 73 50 73 54 64 C50 55 44 55 28 64 Z" fill="#2E3A8A"/>
+  <path d="M100 64 C84 73 78 73 74 64 C78 55 84 55 100 64 Z" fill="#2E3A8A"/>
+
+  <!-- 4 Corner Seeds in Jaipur Gold -->
+  <circle cx="44" cy="44" r="5" fill="#D4AF37"/>
+  <circle cx="84" cy="44" r="5" fill="#D4AF37"/>
+  <circle cx="44" cy="84" r="5" fill="#D4AF37"/>
+  <circle cx="84" cy="84" r="5" fill="#D4AF37"/>
+</svg>

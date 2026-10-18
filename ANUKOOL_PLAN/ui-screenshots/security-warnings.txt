@@ -1,0 +1,26 @@
+[home] Missing recommended security header: content-security-policy
+[home] Missing recommended security header: strict-transport-security
+[home] Missing recommended security header: x-frame-options
+[home] Missing recommended security header: x-content-type-options
+[about] Missing recommended security header: content-security-policy
+[about] Missing recommended security header: strict-transport-security
+[about] Missing recommended security header: x-frame-options
+[about] Missing recommended security header: x-content-type-options
+[products] Missing recommended security header: content-security-policy
+[products] Missing recommended security header: strict-transport-security
+[products] Missing recommended security header: x-frame-options
+[products] Missing recommended security header: x-content-type-options
+[product-1] Missing recommended security header: content-security-policy
+[product-1] Missing recommended security header: strict-transport-security
+[product-1] Missing recommended security header: x-frame-options
+[product-1] Missing recommended security header: x-content-type-options
+[cart] Missing recommended security header: content-security-policy
+[cart] Missing recommended security header: strict-transport-security
+[cart] Missing recommended security header: x-frame-options
+[cart] Missing recommended security header: x-content-type-options
+[checkout] Missing recommended security header: content-security-policy
+[checkout] Missing recommended security header: strict-transport-security
+[checkout] Missing recommended security header: x-frame-options
+[checkout] Missing recommended security header: x-content-type-options
+[API] Backend CSRF endpoint http://localhost:4000/api/csrf connection refused (ensure backend service is running).
+[Transport] Local preview running over plaintext HTTP. Enforce HTTPS and Strict-Transport-Security in production.

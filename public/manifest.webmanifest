@@ -1,0 +1,50 @@
+{
+  "name": "Anukool — Crafted for Connection",
+  "short_name": "Anukool",
+  "description": "Jaipur block-printed DIY craft kits and artisanal gifting by V K Enterprises.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F8F4E9",
+  "theme_color": "#2E3A8A",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["shopping", "lifestyle", "crafts"],
+  "icons": [
+    {
+      "src": "/anukool-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/anukool-favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Explore Craft Kits",
+      "short_name": "Shop Kits",
+      "description": "Browse 22 authentic Jaipur DIY craft kits",
+      "url": "/#shop",
+      "icons": [{ "src": "/anukool-favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Block-Print Studio",
+      "short_name": "Craft Studio",
+      "description": "Interactive Jaipur Hand Block-Printing Canvas",
+      "url": "/#studio",
+      "icons": [{ "src": "/anukool-favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "AI Gift Concierge",
+      "short_name": "Gift Concierge",
+      "description": "TypeSafe AI gift recommendations",
+      "url": "/#concierge",
+      "icons": [{ "src": "/anukool-favicon.svg", "sizes": "any" }]
+    }
+  ]
+}

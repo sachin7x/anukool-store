@@ -1,0 +1,50 @@
+{
+  "home": {
+    "dnsLookupMs": 0,
+    "tcpConnectMs": 0,
+    "ttfbMs": 1.7999999970197678,
+    "domLoadMs": 310.79999999701977,
+    "windowLoadMs": 311.3999999985099,
+    "fcpMs": 476
+  },
+  "about": {
+    "dnsLookupMs": 0,
+    "tcpConnectMs": 0,
+    "ttfbMs": 2.1999999955296516,
+    "domLoadMs": 49.19999999552965,
+    "windowLoadMs": 49.29999999701977,
+    "fcpMs": 180
+  },
+  "products": {
+    "dnsLookupMs": 0,
+    "tcpConnectMs": 0,
+    "ttfbMs": 2.1999999955296516,
+    "domLoadMs": 50.79999999701977,
+    "windowLoadMs": 50.899999998509884,
+    "fcpMs": 180
+  },
+  "product-1": {
+    "dnsLookupMs": 0,
+    "tcpConnectMs": 0,
+    "ttfbMs": 1.5,
+    "domLoadMs": 44.69999999552965,
+    "windowLoadMs": 44.79999999701977,
+    "fcpMs": 172
+  },
+  "cart": {
+    "dnsLookupMs": 0,
+    "tcpConnectMs": 0,
+    "ttfbMs": 4.199999995529652,
+    "domLoadMs": 51.600000001490116,
+    "windowLoadMs": 51.70000000298023,
+    "fcpMs": 184
+  },
+  "checkout": {
+    "dnsLookupMs": 0,
+    "tcpConnectMs": 0,
+    "ttfbMs": 1.3999999985098839,
+    "domLoadMs": 44.5,
+    "windowLoadMs": 44.600000001490116,
+    "fcpMs": 172
+  }
+}

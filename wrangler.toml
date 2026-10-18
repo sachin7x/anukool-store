@@ -1,0 +1,9 @@
+name = "anukool-store"
+compatibility_date = "2026-10-18"
+pages_build_output_dir = "dist"
+
+[vars]
+ENVIRONMENT = "production"
+DEFAULT_CURRENCY = "INR"
+VPA_MERCHANT_ID = "anukool.jaipur@upi"
+GSTIN = "08AABCV1234F1Z8"
