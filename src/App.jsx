@@ -98,8 +98,9 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 164,
     emoji: '📓',
-    image: '/images/products/gratitude-kit-1.jpg',
+    image: '/generated-assets/anukool_sku3_gratitude_journal_1792359701818.jpg',
     images: [
+      '/generated-assets/anukool_sku3_gratitude_journal_1792359701818.jpg',
       '/images/products/gratitude-kit-1.jpg',
       '/images/products/gratitude-kit-2.jpg',
       '/images/products/gratitude-kit-3.jpg'
@@ -125,8 +126,9 @@ const seedProducts = [
     rating: 4.7,
     reviewsCount: 76,
     emoji: '💕',
-    image: '/images/products/wedding-kit-1.jpg',
+    image: '/generated-assets/anukool_sku4_valentine_love_kit_1792359715847.jpg',
     images: [
+      '/generated-assets/anukool_sku4_valentine_love_kit_1792359715847.jpg',
       '/images/products/wedding-kit-1.jpg',
       '/images/products/wedding-kit-2.jpg',
       '/images/products/wedding-kit-3.jpg'
@@ -152,8 +154,9 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 88,
     emoji: '🎁',
-    image: '/images/products/festival-kit-1.jpg',
+    image: '/generated-assets/anukool_sku5_mother_father_day_kit_1792359730489.jpg',
     images: [
+      '/generated-assets/anukool_sku5_mother_father_day_kit_1792359730489.jpg',
       '/images/products/festival-kit-1.jpg',
       '/images/products/festival-kit-2.jpg',
       '/images/products/festival-kit-3.jpg'
@@ -226,8 +229,9 @@ const seedProducts = [
     rating: 4.7,
     reviewsCount: 83,
     emoji: '🔄',
-    image: '/images/products/diwali-kit-2.jpg',
+    image: '/generated-assets/anukool_sku8_project_refill_pack_1792359701211.jpg',
     images: [
+      '/generated-assets/anukool_sku8_project_refill_pack_1792359701211.jpg',
       '/images/products/diwali-kit-2.jpg',
       '/images/products/diwali-kit-3.jpg',
       '/images/products/diwali-kit-1.jpg'
@@ -279,8 +283,12 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 94,
     emoji: '📦',
-    image: '/images/product2.png',
-    images: ['/images/product2.png', '/images/product1.png'],
+    image: '/generated-assets/anukool_sku10_quarterly_craft_box_1792359715251.jpg',
+    images: [
+      '/generated-assets/anukool_sku10_quarterly_craft_box_1792359715251.jpg',
+      '/images/product2.png',
+      '/images/product1.png'
+    ],
     color: '#d1fae5',
     tag: 'Seasonal club',
     stock: 22,
@@ -354,8 +362,11 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 57,
     emoji: '🌸',
-    image: '/anukool-assets/1_9dd6693e-6528-4ff3-8faf-0a0551c90893.png',
-    images: ['/anukool-assets/1_9dd6693e-6528-4ff3-8faf-0a0551c90893.png'],
+    image: '/generated-assets/anukool_sku14_floral_glow_jar_kit_1792359702373.jpg',
+    images: [
+      '/generated-assets/anukool_sku14_floral_glow_jar_kit_1792359702373.jpg',
+      '/anukool-assets/1_9dd6693e-6528-4ff3-8faf-0a0551c90893.png'
+    ],
     color: '#fbcfe8',
     tag: 'Glowing craft',
     stock: 18,
@@ -370,8 +381,11 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 48,
     emoji: '🍭',
-    image: '/anukool-assets/1_165a2177-216d-4196-9960-e46e329eb3a6.png',
-    images: ['/anukool-assets/1_165a2177-216d-4196-9960-e46e329eb3a6.png'],
+    image: '/generated-assets/anukool_sku15_cotton_candy_maker_kit_1792359716363.jpg',
+    images: [
+      '/generated-assets/anukool_sku15_cotton_candy_maker_kit_1792359716363.jpg',
+      '/anukool-assets/1_165a2177-216d-4196-9960-e46e329eb3a6.png'
+    ],
     color: '#cfe1c2',
     tag: 'Party hit',
     stock: 14,
@@ -434,8 +448,11 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 28,
     emoji: '🧴',
-    image: '/anukool-assets/1_f9aff231-fa53-4683-9b31-c526813f6782.png',
-    images: ['/anukool-assets/1_f9aff231-fa53-4683-9b31-c526813f6782.png'],
+    image: '/generated-assets/anukool_sku19_botanical_perfume_kit_1792359702821.jpg',
+    images: [
+      '/generated-assets/anukool_sku19_botanical_perfume_kit_1792359702821.jpg',
+      '/anukool-assets/1_f9aff231-fa53-4683-9b31-c526813f6782.png'
+    ],
     color: '#ead6ec',
     tag: 'A little luxury',
     stock: 7,
@@ -450,8 +467,11 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 89,
     emoji: '🌱',
-    image: '/anukool-assets/Homepage-diy-station-5.jpg',
-    images: ['/anukool-assets/Homepage-diy-station-5.jpg'],
+    image: '/generated-assets/anukool_sku20_grow_in_a_can_basil_1792359718696.jpg',
+    images: [
+      '/generated-assets/anukool_sku20_grow_in_a_can_basil_1792359718696.jpg',
+      '/anukool-assets/Homepage-diy-station-5.jpg'
+    ],
     color: '#d8e7c9',
     tag: 'Easy grow',
     stock: 35,
