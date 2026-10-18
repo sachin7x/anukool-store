@@ -44,8 +44,9 @@ const seedProducts = [
     image: "/generated-assets/anukool_diwali_craft_kit_1792356758897.jpg",
     images: [
       "/generated-assets/anukool_diwali_craft_kit_1792356758897.jpg",
+      "/anukool-assets/2_4ac3722f-2b66-4516-952e-621f1a9e755b.png",
+      "/anukool-assets/1_13892dfb-841d-4432-a2be-685fbaacd876.jpg",
       "/images/products/diwali-kit-1.jpg",
-      "/images/products/diwali-kit-2.jpg",
       "/images/products/diwali-kit-3.jpg"
     ],
     video: "/anukool-assets/AQOxdeN6bVJequURyl0y12FuBT4zAUal3pKs59s5-bEG494PgXTWKw-0htYDviq9IHjZiLliXun96QVN6qMvyv1rNPxMZVRrOozk6Gw.mp4",
@@ -156,9 +157,9 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku5_mother_father_day_kit_1792359730489.jpg",
     images: [
       "/generated-assets/anukool_sku5_mother_father_day_kit_1792359730489.jpg",
+      "/anukool-assets/1_4bd1fb95-d552-417a-bdef-e4883aff213d.jpg",
       "/images/products/festival-kit-1.jpg",
-      "/images/products/festival-kit-2.jpg",
-      "/images/products/festival-kit-3.jpg"
+      "/images/products/festival-kit-2.jpg"
     ],
     video: "/anukool-assets/AQOKf3fiLcHCJAdectwsIW7jWAGqOerBWknbloI0fG6zOXVsdJK4IFALf0HXE8U-_RCKBZgWUb-Zs_OShvyZCwHF5JfUb9MBYtq-v_M.mp4",
     color: "#fed7aa",
@@ -184,6 +185,7 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku6_textile_craft.jpg",
     images: [
       "/generated-assets/anukool_sku6_textile_craft.jpg",
+      "/anukool-assets/1_4517164d-a812-4efe-954d-4aaf654567b5.png",
       "/generated-assets/anukool_hero_flatlay_1792356742487.jpg",
       "/generated-assets/video-thumbs/vid_3_AQN4AUw6SbJI.jpg"
     ],
@@ -211,8 +213,9 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku7_digital_patterns.jpg",
     images: [
       "/generated-assets/anukool_sku7_digital_patterns.jpg",
-      "/generated-assets/anukool_sku6_textile_craft.jpg",
-      "/generated-assets/video-thumbs/vid_7_AQOIK6er7q3w.jpg"
+      "/generated-assets/video-thumbs/vid_7_AQOIK6er7q3w.jpg",
+      "/anukool-assets/Final_templates_SM_3.png",
+      "/anukool-assets/1_95a8bec7-3f9b-46f3-9036-a18377d9fd47.png"
     ],
     video: "/anukool-assets/AQOIK6er7q3wP-WCNWEsZ-WtDgnOf9P7xI8ogiwAIQ1suvt0X69Pc_8Q--dNUsgmBUyl7OFVYnrDQjIq5-sIViHayBEXMBCTusklAG4.mp4",
     color: "#bae6fd",
@@ -239,7 +242,8 @@ const seedProducts = [
     images: [
       "/generated-assets/anukool_sku8_project_refill_pack_1792359701211.jpg",
       "/anukool-assets/1_443e4d06-c435-4199-befb-2892b9cfb4a8.png",
-      "/generated-assets/video-thumbs/vid_0_AQMMhBgZV1Cz.jpg"
+      "/anukool-assets/8_12086e7b-76ea-4da0-86bd-9f40007aaed1.jpg",
+      "/anukool-assets/9_4bd6fcad-bb8e-4ac4-8501-f22d2600841d.jpg"
     ],
     video: "/anukool-assets/AQMMhBgZV1CzJeq7oY-efxk9UoAVjhjjfoa_acD88jQtkgHzcWyUDJS5zVcdyAUXNm07LcWdbPm_akfJp2wp56arBqe694i_i64bULE.mp4",
     color: "#e5e7eb",
@@ -265,7 +269,8 @@ const seedProducts = [
     image: "/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg",
     images: [
       "/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg",
-      "/generated-assets/anukool_sku6_textile_craft.jpg",
+      "/anukool-assets/235-1_9b5e9120-258d-4d9f-91e2-b078b6e3e9ea.png",
+      "/anukool-assets/1_7de9725b-96bb-42a0-844a-6d9fa684da61.png",
       "/generated-assets/video-thumbs/vid_10_AQOxdeN6bVJe.jpg"
     ],
     video: "/anukool-assets/AQOxdeN6bVJequURyl0y12FuBT4zAUal3pKs59s5-bEG494PgXTWKw-0htYDviq9IHjZiLliXun96QVN6qMvyv1rNPxMZVRrOozk6Gw.mp4",
@@ -293,6 +298,7 @@ const seedProducts = [
     images: [
       "/generated-assets/anukool_sku10_quarterly_craft_box_1792359715251.jpg",
       "/generated-assets/anukool_hero_flatlay_1792356742487.jpg",
+      "/anukool-assets/1_95a8bec7-3f9b-46f3-9036-a18377d9fd47.png",
       "/generated-assets/video-thumbs/0_a.jpg"
     ],
     video: "/anukool-assets/AQMMhBgZV1CzJeq7oY-efxk9UoAVjhjjfoa_acD88jQtkgHzcWyUDJS5zVcdyAUXNm07LcWdbPm_akfJp2wp56arBqe694i_i64bULE.mp4",
@@ -320,6 +326,8 @@ const seedProducts = [
     image: "/anukool-assets/1_89c38a9b-e776-49f1-81c4-98775601e9be.png",
     images: [
       "/anukool-assets/1_89c38a9b-e776-49f1-81c4-98775601e9be.png",
+      "/anukool-assets/1_8dc0284f-892a-4e84-bc9c-37f6f13800f7.png",
+      "/anukool-assets/1_ed0d3c55-1f9c-454e-85ed-967ba3c8d96b.jpg",
       "/generated-assets/video-thumbs/vid_14_AQPnL9-IVPg2.jpg"
     ],
     video: "/anukool-assets/AQPnL9-IVPg2HVnz0MY-IVEQxGxP21JDi7Hn2LYeqZEPzSqAiMHOiosFb4W6QW-LFEqO50IIhvWLWVQ-6PDqcx_1YbahNUbyuu0oJuA.mp4",
@@ -337,10 +345,11 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 86,
     emoji: "🏮",
-    image: "/anukool-assets/Homepage-diy-station-2.jpg",
+    image: "/anukool-assets/2_8b51c3d9-e664-4a96-971a-58638df1cf19.png",
     images: [
-      "/anukool-assets/Homepage-diy-station-2.jpg",
+      "/anukool-assets/2_8b51c3d9-e664-4a96-971a-58638df1cf19.png",
       "/anukool-assets/1_7efc72d0-9cd2-419f-87e0-b70898ce994d.png",
+      "/anukool-assets/179-1_7efc72d0-9cd2-419f-87e0-b70898ce994d.png",
       "/generated-assets/video-thumbs/vid_2_AQMrefUXDYZV.jpg"
     ],
     video: "/anukool-assets/AQMrefUXDYZVP6oBAmEziscRXCPlGCoJ0e4zrcxvvdq40R_q7c7TdTwWR-S8G66nF98rfc_N-IFRdvVX142bxKxkly7k0hE4bXAHc2w.mp4",
@@ -358,10 +367,11 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 43,
     emoji: "🏺",
-    image: "/anukool-assets/Shadu_Mati_1kg_Pack.jpg",
+    image: "/anukool-assets/Hero_Image.jpg",
     images: [
+      "/anukool-assets/Hero_Image.jpg",
       "/anukool-assets/Shadu_Mati_1kg_Pack.jpg",
-      "/anukool-assets/1_c534a052-cbca-4ca1-9001-271bfea19354.jpg",
+      "/anukool-assets/1_68effd51-cc42-429f-8a98-fcb48a474bea.png",
       "/generated-assets/video-thumbs/vid_9_AQOkieF2TLKR.jpg"
     ],
     video: "/anukool-assets/AQOkieF2TLKRohRfQyAGT7PVSuUrcWLn8fVFmINWzpMASPF8NxCYm7fE_GOyZV-CD0hKcQkE4f6Io5G8vl-1uRLl161jfel9OUPWWvU.mp4",
@@ -382,6 +392,8 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku14_floral_glow_jar_kit_1792359702373.jpg",
     images: [
       "/generated-assets/anukool_sku14_floral_glow_jar_kit_1792359702373.jpg",
+      "/anukool-assets/2_8075392d-a022-4ecd-9cbd-61c6b7743c94.png",
+      "/anukool-assets/221-1_9272b260-378c-4234-ba1c-062506b60b4f.png",
       "/generated-assets/video-thumbs/vid_12_AQPWqTUbshCs.jpg"
     ],
     video: "/anukool-assets/AQPWqTUbshCsjfNDLr6ncOuIYZjkyajk8M56wcJVsWcUxFmwLXxGFaeuQg1k5_dW1lc9cCuL2T028_kbj08ajh4NLe-d9Hf2Tq1gnz4.mp4",
@@ -402,10 +414,10 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku15_cotton_candy_maker_kit_1792359716363.jpg",
     images: [
       "/generated-assets/anukool_sku15_cotton_candy_maker_kit_1792359716363.jpg",
-      "/anukool-assets/DIY_cotton_candy_Kit_Kitsters_-11.jpg",
+      "/anukool-assets/2_f8ff91ac-e21f-4331-872c-185d2a4ee2ae.png",
       "/anukool-assets/DIY_cotton_candy_Kit_Kitsters_-14.jpg",
-      "/anukool-assets/DIY_cotton_candy_Kit_Kitsters_-16.jpg",
-      "/anukool-assets/DIY_cotton_candy_Kit_Kitsters_-21.jpg"
+      "/anukool-assets/DIY_cotton_candy_Kit_Kitsters_-21.jpg",
+      "/anukool-assets/DIY_cotton_candy_Kit_Kitsters_-16.jpg"
     ],
     video: "/anukool-assets/AQMOVALLSgjjelR688Xj_lwil0JILNXX15jQzhWHdpAWTyy2OtsDCaw9UieujeK0kUDL_qjsrsmvljx974b8E32tjOYPGzloSmSqPlc.mp4",
     color: "#cfe1c2",
@@ -422,9 +434,11 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 67,
     emoji: "🪴",
-    image: "/anukool-assets/Homepage-diy-station-3.jpg",
+    image: "/images/products/coaster-finished-1.jpg",
     images: [
-      "/anukool-assets/Homepage-diy-station-3.jpg",
+      "/images/products/coaster-finished-1.jpg",
+      "/images/products/coaster-finished-2.jpg",
+      "/anukool-assets/1_443e4d06-c435-4199-befb-2892b9cfb4a8.png",
       "/generated-assets/video-thumbs/0_b.jpg"
     ],
     video: "/anukool-assets/AQMMhBgZV1CzJeq7oY-efxk9UoAVjhjjfoa_acD88jQtkgHzcWyUDJS5zVcdyAUXNm07LcWdbPm_akfJp2wp56arBqe694i_i64bULE.mp4",
@@ -442,10 +456,13 @@ const seedProducts = [
     rating: 4.7,
     reviewsCount: 49,
     emoji: "🌿",
-    image: "/anukool-assets/Homepage-diy-station-1.jpg",
+    image: "/images/products/resin-pendant-finished-1.jpg",
     images: [
-      "/anukool-assets/Homepage-diy-station-1.jpg",
-      "/anukool-assets/1_1ad32442-9c84-4c17-860a-979935b39400.jpg"
+      "/images/products/resin-pendant-finished-1.jpg",
+      "/anukool-assets/1_5fa643b7-100a-4de5-98db-26b5c9b38117.png",
+      "/anukool-assets/1_35ef791f-0050-469b-83ad-91283505f4e7.jpg",
+      "/anukool-assets/4_6b9bc6c8-94e8-489c-8e4f-c2301038b9ca.png",
+      "/generated-assets/video-thumbs/vid_13_AQPgteZXfjIl.jpg"
     ],
     video: "/anukool-assets/AQMrefUXDYZVP6oBAmEziscRXCPlGCoJ0e4zrcxvvdq40R_q7c7TdTwWR-S8G66nF98rfc_N-IFRdvVX142bxKxkly7k0hE4bXAHc2w.mp4",
     color: "#cfe1c2",
@@ -462,10 +479,12 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 37,
     emoji: "🧲",
-    image: "/anukool-assets/Homepage-diy-station-4.jpg",
+    image: "/anukool-assets/1_3c0999c2-5395-420d-8701-0c98a912108a.jpg",
     images: [
-      "/anukool-assets/Homepage-diy-station-4.jpg",
-      "/anukool-assets/1_3c0999c2-5395-420d-8701-0c98a912108a.jpg"
+      "/anukool-assets/1_3c0999c2-5395-420d-8701-0c98a912108a.jpg",
+      "/anukool-assets/1_ae7cafd4-8627-4833-ac59-2d03346db257.png",
+      "/anukool-assets/1_528d6cd4-9cf0-4220-acb1-a0ee162a59e8.png",
+      "/generated-assets/video-thumbs/vid_15_eedad942f428.jpg"
     ],
     color: "#f5c4ad",
     tag: "Group activity",
@@ -484,7 +503,9 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku19_botanical_perfume_kit_1792359702821.jpg",
     images: [
       "/generated-assets/anukool_sku19_botanical_perfume_kit_1792359702821.jpg",
-      "/anukool-assets/1_f9aff231-fa53-4683-9b31-c526813f6782.png"
+      "/anukool-assets/1_f9aff231-fa53-4683-9b31-c526813f6782.png",
+      "/anukool-assets/75-1_f9aff231-fa53-4683-9b31-c526813f6782.png",
+      "/anukool-assets/1_9dd6693e-6528-4ff3-8faf-0a0551c90893.png"
     ],
     color: "#ead6ec",
     tag: "A little luxury",
@@ -503,7 +524,9 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku20_grow_in_a_can_basil_1792359718696.jpg",
     images: [
       "/generated-assets/anukool_sku20_grow_in_a_can_basil_1792359718696.jpg",
-      "/anukool-assets/Homepage-diy-station-5.jpg"
+      "/anukool-assets/1_b21c8124-6617-44bb-b651-4b809666ce92.png",
+      "/anukool-assets/1_95a8bec7-3f9b-46f3-9036-a18377d9fd47.png",
+      "/generated-assets/video-thumbs/vid_4_AQN6YZEwB-Xh.jpg"
     ],
     color: "#d8e7c9",
     tag: "Easy grow",
@@ -522,7 +545,9 @@ const seedProducts = [
     image: "/anukool-assets/Tote_Bags_3.png",
     images: [
       "/anukool-assets/Tote_Bags_3.png",
-      "/anukool-assets/1_e5a77f72-e00a-49e4-91e0-ed76eb649855.png",
+      "/anukool-assets/2_0136a446-7c2c-40dd-a8fb-4752c59a6dad.png",
+      "/anukool-assets/235-1_9b5e9120-258d-4d9f-91e2-b078b6e3e9ea.png",
+      "/anukool-assets/145.jpg",
       "/generated-assets/video-thumbs/vid_11_AQPI_Swq4ZBZ.jpg"
     ],
     video: "/anukool-assets/AQPI_Swq4ZBZcq2AUNGg84Ww1MYogM-jIMyHGCnk_Rp0XmWvvX_yfuCeIgpP_RJGlf1_ry7jxsnPS9hKkXUEagCfoBDS7HoGA3kh3gI.mp4",
@@ -543,7 +568,9 @@ const seedProducts = [
     image: "/anukool-assets/1_132ee380-6b14-4842-8257-2ca5f843e4a6.png",
     images: [
       "/anukool-assets/1_132ee380-6b14-4842-8257-2ca5f843e4a6.png",
-      "/anukool-assets/1_07d6fbaa-f077-4a07-bea1-e421ca80adbb.png"
+      "/anukool-assets/1_07d6fbaa-f077-4a07-bea1-e421ca80adbb.png",
+      "/anukool-assets/285-1_07d6fbaa-f077-4a07-bea1-e421ca80adbb.png",
+      "/generated-assets/video-thumbs/vid_1_AQMOVALLSgjj.jpg"
     ],
     color: "#cbe7ee",
     tag: "Sweet nostalgia",
@@ -639,7 +666,7 @@ async function api(path, options = {}) {
 }
 function App() {
   const [products, setProducts] = useState(() => {
-    const stored = readStore('ank_products_v3', null);
+    const stored = readStore('ank_products_v5', null);
     if (!stored || !Array.isArray(stored) || stored.length < seedProducts.length) {
       return seedProducts;
     }
@@ -752,7 +779,7 @@ function App() {
     return () => { alive = false; };
   }, []);
 
-  useEffect(() => { localStorage.setItem('ank_products_v2', JSON.stringify(products)); }, [products]);
+  useEffect(() => { localStorage.setItem('ank_products_v5', JSON.stringify(products)); }, [products]);
   useEffect(() => { localStorage.setItem('ank_cart', JSON.stringify(cart)); }, [cart]);
   useEffect(() => { localStorage.setItem('ank_wishlist', JSON.stringify(wishlisted)); }, [wishlisted]);
   useEffect(() => { localStorage.setItem('ank_orders', JSON.stringify(orders)); }, [orders]);
