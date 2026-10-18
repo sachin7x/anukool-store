@@ -41,8 +41,9 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 142,
     emoji: '🪔',
-    image: '/anukool-assets/1_443e4d06-c435-4199-befb-2892b9cfb4a8.png',
+    image: '/generated-assets/anukool_diwali_craft_kit_1792356758897.jpg',
     images: [
+      '/generated-assets/anukool_diwali_craft_kit_1792356758897.jpg',
       '/anukool-assets/1_443e4d06-c435-4199-befb-2892b9cfb4a8.png',
       '/anukool-assets/1_13892dfb-841d-4432-a2be-685fbaacd876.jpg',
       '/anukool-assets/DT-1.jpg',
@@ -69,8 +70,9 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 98,
     emoji: '🧵',
-    image: '/images/products/rakhi-kit-1.jpg',
+    image: '/generated-assets/anukool_rakhi_craft_kit_1792356806115.jpg',
     images: [
+      '/generated-assets/anukool_rakhi_craft_kit_1792356806115.jpg',
       '/images/products/rakhi-kit-1.jpg',
       '/images/products/rakhi-kit-2.jpg',
       '/images/products/rakhi-kit-3.jpg'
@@ -250,8 +252,9 @@ const seedProducts = [
     rating: 4.9,
     reviewsCount: 52,
     emoji: '🎨',
-    image: '/images/products/festival-kit-2.jpg',
+    image: '/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg',
     images: [
+      '/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg',
       '/images/products/festival-kit-2.jpg',
       '/images/products/festival-kit-3.jpg',
       '/images/products/festival-kit-1.jpg'
@@ -996,8 +999,8 @@ function App() {
                 </div>
                 <div className="hero-proof"><span>★★★★★</span> Loved by mindful makers across India</div>
               </div>
-              <div className="hero-art" aria-label="Creative craft kit illustration">
-                <img className="hero-illustration" src="/anukool-hero.svg" alt="Illustration of an Anukool craft kit box, block prints, and maker supplies" />
+              <div className="hero-art" aria-label="Anukool signature handcrafted block-printing craft kit flat-lay">
+                <img className="hero-illustration" src="/generated-assets/anukool_hero_flatlay_1792356742487.jpg" alt="Anukool Jaipur Signature Block-Printing Craft Kit flat-lay" />
                 <div className="hero-caption">HERITAGE BLOCK PRINTS<br/>JAIPUR, RAJASTHAN ↗</div>
               </div>
             </section>

@@ -66,7 +66,7 @@ test('5. Catalog Integrity: 22 Kits & Existing Media Assets', () => {
   assert.ok(idMatches.length >= 22, `Catalog should contain at least 22 kits, found ${idMatches.length}`);
 
   // Extract all media references and verify files exist in dist
-  const assetRegex = /['"](\/(?:images|anukool-assets|kitsters-media)[^'"]+)['"]/g;
+  const assetRegex = /['"](\/(?:images|anukool-assets|kitsters-media|generated-assets)[^'"]+)['"]/g;
   let match;
   let checked = 0;
   while ((match = assetRegex.exec(appCode)) !== null) {
