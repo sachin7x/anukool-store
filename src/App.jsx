@@ -576,6 +576,11 @@ function App() {
   const [productForm, setProductForm] = useState({ name: '', category: 'Gifting & Fabric', price: '', stock: '', emoji: '🪔', color: '#fde68a', tag: 'New', rating: 4.8, description: '' });
   const [orderFilter, setOrderFilter] = useState('All orders');
 
+  const cartCount = Object.values(cart).reduce((a, b) => a + b, 0);
+  const cartItems = Object.entries(cart).map(([id, qty]) => ({ product: products.find(p => p.id === Number(id)), qty })).filter(x => x.product);
+  const subtotal = cartItems.reduce((sum, item) => sum + item.product.price * item.qty, 0);
+  const revenue = orders.reduce((sum, order) => sum + (order.total || 0), 0);
+
   function navigate(targetPage, prod = null) {
     runViewTransition(() => {
       if (targetPage === 'product' && prod) {
@@ -701,11 +706,6 @@ function App() {
     if (sort === 'Top rated') list = [...list].sort((a, b) => b.rating - a.rating);
     return list;
   }, [products, category, query, priceRange, sort]);
-
-  const cartCount = Object.values(cart).reduce((a, b) => a + b, 0);
-  const cartItems = Object.entries(cart).map(([id, qty]) => ({ product: products.find(p => p.id === Number(id)), qty })).filter(x => x.product);
-  const subtotal = cartItems.reduce((sum, item) => sum + item.product.price * item.qty, 0);
-  const revenue = orders.reduce((sum, order) => sum + (order.total || 0), 0);
 
   function notify(message) { setToast(message); }
   function addToCart(id, quantity = 1) { setCart(prev => ({ ...prev, [id]: (prev[id] || 0) + quantity })); notify('Added to your bag ✦'); }
