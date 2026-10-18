@@ -181,11 +181,11 @@ const seedProducts = [
     rating: 4.8,
     reviewsCount: 64,
     emoji: "🏡",
-    image: "/images/products/wedding-kit-2.jpg",
+    image: "/generated-assets/anukool_sku6_textile_craft.jpg",
     images: [
-      "/images/products/wedding-kit-2.jpg",
-      "/images/products/wedding-kit-3.jpg",
-      "/images/products/wedding-kit-1.jpg"
+      "/generated-assets/anukool_sku6_textile_craft.jpg",
+      "/generated-assets/anukool_hero_flatlay_1792356742487.jpg",
+      "/generated-assets/video-thumbs/vid_3_AQN4AUw6SbJI.jpg"
     ],
     video: "/anukool-assets/AQN4AUw6SbJIMnlj4nQj8Tjcj64AopnaK_kniDdZ20m_qcyBp3XXnc1JJRWkYvvBJ1MSA6C9991WK6kZ5-PdQcIzltP4xdR55XWxXY4.mp4",
     color: "#bbf7d0",
@@ -208,9 +208,10 @@ const seedProducts = [
     rating: 4.6,
     reviewsCount: 112,
     emoji: "🖥️",
-    image: "/images/product1.png",
+    image: "/generated-assets/anukool_sku7_digital_patterns.jpg",
     images: [
-      "/images/product1.png",
+      "/generated-assets/anukool_sku7_digital_patterns.jpg",
+      "/generated-assets/anukool_sku6_textile_craft.jpg",
       "/generated-assets/video-thumbs/vid_7_AQOIK6er7q3w.jpg"
     ],
     video: "/anukool-assets/AQOIK6er7q3wP-WCNWEsZ-WtDgnOf9P7xI8ogiwAIQ1suvt0X69Pc_8Q--dNUsgmBUyl7OFVYnrDQjIq5-sIViHayBEXMBCTusklAG4.mp4",
@@ -237,9 +238,8 @@ const seedProducts = [
     image: "/generated-assets/anukool_sku8_project_refill_pack_1792359701211.jpg",
     images: [
       "/generated-assets/anukool_sku8_project_refill_pack_1792359701211.jpg",
-      "/images/products/diwali-kit-2.jpg",
-      "/images/products/diwali-kit-3.jpg",
-      "/images/products/diwali-kit-1.jpg"
+      "/anukool-assets/1_443e4d06-c435-4199-befb-2892b9cfb4a8.png",
+      "/generated-assets/video-thumbs/vid_0_AQMMhBgZV1Cz.jpg"
     ],
     video: "/anukool-assets/AQMMhBgZV1CzJeq7oY-efxk9UoAVjhjjfoa_acD88jQtkgHzcWyUDJS5zVcdyAUXNm07LcWdbPm_akfJp2wp56arBqe694i_i64bULE.mp4",
     color: "#e5e7eb",
@@ -265,8 +265,8 @@ const seedProducts = [
     image: "/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg",
     images: [
       "/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg",
-      "/generated-assets/anukool_hero_flatlay_1792356742487.jpg",
-      "/images/products/diwali-kit-1.jpg"
+      "/generated-assets/anukool_sku6_textile_craft.jpg",
+      "/generated-assets/video-thumbs/vid_10_AQOxdeN6bVJe.jpg"
     ],
     video: "/anukool-assets/AQOxdeN6bVJequURyl0y12FuBT4zAUal3pKs59s5-bEG494PgXTWKw-0htYDviq9IHjZiLliXun96QVN6qMvyv1rNPxMZVRrOozk6Gw.mp4",
     color: "#fef3c7",
@@ -639,7 +639,7 @@ async function api(path, options = {}) {
 }
 function App() {
   const [products, setProducts] = useState(() => {
-    const stored = readStore('ank_products_v2', null);
+    const stored = readStore('ank_products_v3', null);
     if (!stored || !Array.isArray(stored) || stored.length < seedProducts.length) {
       return seedProducts;
     }

@@ -14,7 +14,7 @@ function ProductPage({
 }) {
   const [activeImgIndex, setActiveImgIndex] = useState(0);
   const [qty, setQty] = useState(1);
-  const [activeTab, setActiveTab] = useState(p.video ? 'video' : 'story');
+  const [activeTab, setActiveTab] = useState('story');
   const [copied, setCopied] = useState(false);
   const [showReviewModal, setShowReviewModal] = useState(false);
   const [reviewsList, setReviewsList] = useState(() => {
@@ -228,7 +228,25 @@ function ProductPage({
                 <h3>Watch how it comes together</h3>
                 <p>See a real maker unbox and craft this project step-by-step:</p>
                 <div className="product-video-preview">
-                  <video src={p.video} poster={p.image} controls playsInline />
+                  <video
+                    src={p.video}
+                    poster={p.image}
+                    controls
+                    playsInline
+                    preload="metadata"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const fb = e.target.parentElement?.querySelector('.video-error-fallback');
+                      if (fb) fb.style.display = 'block';
+                    }}
+                  />
+                  <div className="video-error-fallback" style={{ display: 'none', position: 'relative' }}>
+                    <img src={p.image} alt={p.name} style={{ width: '100%', borderRadius: 14 }} />
+                    <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(0,0,0,0.3)', borderRadius: 14, color: '#fff', flexDirection: 'column', gap: 8 }}>
+                      <Play size={44} fill="currentColor" />
+                      <span style={{ fontSize: 13, fontWeight: 700 }}>Artisan Making Video</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             )}
