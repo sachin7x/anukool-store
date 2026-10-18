@@ -15,7 +15,9 @@ function OurStoryPage({ onBack, onNavigate }) {
       </div>
       <div className="wrap">
         <div className="story-grid">
-          <div className="story-visual">🪡</div>
+          <div className="story-visual">
+            <img src="/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg" alt="Artisan hands block printing in Jaipur" className="story-img" />
+          </div>
           <div className="story-copy">
             <div className="eyebrow muted">WHERE IT ALL BEGINS</div>
             <h2>The Heritage of Jaipur</h2>
@@ -31,11 +33,15 @@ function OurStoryPage({ onBack, onNavigate }) {
             <p>In a world of mass-produced, one-click purchases, gifting has often lost its soul. We give things out of obligation rather than connection. Yet people yearn for gifts that embody time, thoughtfulness, and personal warmth.</p>
             <p>Anukool was founded with a singular purpose: to enable anyone, regardless of craft skill, to create a stunning, personalized gift that carries their own care and creativity.</p>
           </div>
-          <div className="story-visual">🎁</div>
+          <div className="story-visual">
+            <img src="/generated-assets/anukool_hero_flatlay_1792356742487.jpg" alt="Handcrafted Anukool gift craft box" className="story-img" />
+          </div>
         </div>
 
         <div className="story-grid">
-          <div className="story-visual">🏛️</div>
+          <div className="story-visual">
+            <img src="/generated-assets/anukool_sku10_quarterly_craft_box_1792359715251.jpg" alt="V K Enterprises Jaipur workshop textiles" className="story-img" />
+          </div>
           <div className="story-copy">
             <div className="eyebrow muted">OUR PARENTAGE</div>
             <h2>V K Enterprises, Jaipur</h2>
@@ -53,12 +59,14 @@ function OurStoryPage({ onBack, onNavigate }) {
           </div>
           <div className="artisan-grid">
             {[
-              { emoji: '🎨', name: 'Ramesh Ji Saini', skill: 'Master Block Printer (38 years)', desc: 'Ramesh Ji hand-stamps the intricate mandala and paisley patterns featured in our Diwali and Gratitude journal kits.' },
-              { emoji: '🧵', name: 'Sunita Devi', skill: 'Natural Fabric Specialist', desc: 'Sunita Devi oversees pure cotton sourcing, natural desizing, and pre-cut precision for our festival series.' },
-              { emoji: '✂️', name: 'Mohan Lal Verma', skill: 'Pattern & Finishing Craftsman', desc: 'Mohan Lal ensures each fabric panel, cord, and tassel is dimensionally calibrated so your assembly is effortless.' }
+              { image: '/images/avatar3.jpg', name: 'Ramesh Ji Saini', skill: 'Master Block Printer (38 years)', desc: 'Ramesh Ji hand-stamps the intricate mandala and paisley patterns featured in our Diwali and Gratitude journal kits.' },
+              { image: '/images/avatar1.jpg', name: 'Sunita Devi', skill: 'Natural Fabric Specialist', desc: 'Sunita Devi oversees pure cotton sourcing, natural desizing, and pre-cut precision for our festival series.' },
+              { image: '/images/avatar2.jpg', name: 'Mohan Lal Verma', skill: 'Pattern & Finishing Craftsman', desc: 'Mohan Lal ensures each fabric panel, cord, and tassel is dimensionally calibrated so your assembly is effortless.' }
             ].map(a => (
               <div className="artisan-card" key={a.name}>
-                <div className="artisan-avatar">{a.emoji}</div>
+                <div className="artisan-avatar">
+                  <img src={a.image} alt={a.name} className="artisan-photo" />
+                </div>
                 <h4>{a.name}</h4>
                 <p style={{ fontWeight: 800, fontSize: 10, color: '#C75B39', marginBottom: 10, letterSpacing: '.05em' }}>{a.skill}</p>
                 <p>{a.desc}</p>

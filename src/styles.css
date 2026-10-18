@@ -101,20 +101,26 @@ button:disabled{opacity:.55;cursor:not-allowed}
 /* Story Page */
 .story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; padding: 50px 0; border-bottom: 1px solid #e8e1d7; }
 .story-grid:last-of-type { border-bottom: none; }
-.story-visual { background: var(--anukool-indigo); border-radius: 20px; aspect-ratio: 1.1; display: grid; place-items: center; font-size: 88px; box-shadow: 0 12px 36px rgba(46,58,138,0.12); }
+.story-visual { background: var(--anukool-indigo); border-radius: 20px; aspect-ratio: 1.1; display: grid; place-items: center; font-size: 88px; box-shadow: 0 12px 36px rgba(46,58,138,0.12); overflow: hidden; }
+.story-visual img.story-img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .story-copy h2 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 3.2vw, 42px); letter-spacing: -0.03em; margin: 0 0 16px; color: var(--anukool-indigo); }
 .story-copy p { font-size: 14px; line-height: 1.9; color: #4e4841; margin: 0 0 16px; }
 
 /* Artisan Section */
 .artisan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 28px; }
 .artisan-card { background: white; border-radius: 16px; padding: 28px 22px; text-align: center; border: 1px solid #e6ded2; box-shadow: 0 4px 16px rgba(0,0,0,0.03); }
-.artisan-avatar { width: 76px; height: 76px; border-radius: 50%; background: #eef2fb; display: grid; place-items: center; font-size: 34px; margin: 0 auto 16px; border: 2px solid var(--anukool-gold); }
+.artisan-avatar { width: 76px; height: 76px; border-radius: 50%; background: #eef2fb; display: grid; place-items: center; font-size: 34px; margin: 0 auto 16px; border: 2px solid var(--anukool-gold); overflow: hidden; }
+.artisan-avatar img.artisan-photo { width: 100%; height: 100%; object-fit: cover; display: block; }
 .artisan-card h4 { font-family: Manrope, sans-serif; font-size: 16px; margin: 0 0 6px; color: var(--anukool-indigo); font-weight: 700; }
 .artisan-card p { font-size: 12px; line-height: 1.7; color: #696257; margin: 0; }
 
 /* How It Works */
 .how-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; padding: 56px 0 36px; }
-.how-step { text-align: center; padding: 40px 24px; background: white; border-radius: 20px; border: 1px solid #e7dfd4; box-shadow: 0 6px 20px rgba(0,0,0,0.04); position: relative; }
+.how-step { text-align: center; padding: 24px; background: white; border-radius: 20px; border: 1px solid #e7dfd4; box-shadow: 0 6px 20px rgba(0,0,0,0.04); position: relative; }
+.how-step-visual { position: relative; width: 100%; aspect-ratio: 16/10; border-radius: 14px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+.how-step-img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
+.how-step:hover .how-step-img { transform: scale(1.05); }
+.how-step-visual .how-step-num { position: absolute; bottom: 10px; left: 10px; margin: 0; width: 38px; height: 38px; font-size: 16px; border-radius: 50%; background: var(--anukool-indigo); color: white; font-family: 'Playfair Display', serif; font-weight: 700; display: grid; place-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
 .how-step-num { width: 56px; height: 56px; border-radius: 50%; background: var(--anukool-indigo); color: white; font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; display: grid; place-items: center; margin: 0 auto 22px; box-shadow: 0 6px 14px rgba(46,58,138,0.25); }
 .how-step h3 { font-family: 'Playfair Display', serif; font-size: 22px; margin: 0 0 12px; color: var(--anukool-indigo); }
 .how-step p { font-size: 13px; line-height: 1.85; color: #5a544b; margin: 0; }
@@ -280,6 +286,27 @@ button:disabled{opacity:.55;cursor:not-allowed}
 /* Product Page Video Preview Tab */
 .product-video-preview { aspect-ratio: 16/9; max-width: 720px; border-radius: 16px; overflow: hidden; background: #000; margin: 16px 0 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
 .product-video-preview video { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Product Video Badge on Grid Cards */
+.product-video-badge {
+  position: absolute;
+  bottom: 50px;
+  left: 12px;
+  background: rgba(46, 58, 138, 0.88);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 99px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
 
 @media(max-width: 900px) {
   .reels-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }

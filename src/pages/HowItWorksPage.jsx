@@ -17,17 +17,26 @@ function HowItWorksPage({ onBack, onNavigate }) {
       <div className="wrap">
         <div className="how-steps">
           <div className="how-step">
-            <div className="how-step-num">1</div>
+            <div className="how-step-visual">
+              <img src="/generated-assets/anukool_diwali_craft_kit_1792356758897.jpg" alt="Choose your kit" className="how-step-img" />
+              <div className="how-step-num">1</div>
+            </div>
             <h3>Choose Your Occasion</h3>
             <p>Select from festive kits (Diwali fabric diyas, Rakhi bonding bracelets), keepsake gratitude journals, or heartfelt parent appreciation gifts.</p>
           </div>
           <div className="how-step">
-            <div className="how-step-num">2</div>
+            <div className="how-step-visual">
+              <img src="/generated-assets/anukool_artisan_hands_crafting_1792356824138.jpg" alt="Make together" className="how-step-img" />
+              <div className="how-step-num">2</div>
+            </div>
             <h3>Make Together</h3>
             <p>Open the box and follow our photo-illustrated guide or scan the QR code for step-by-step artisan video instructions. All pre-cut materials and tools are included.</p>
           </div>
           <div className="how-step">
-            <div className="how-step-num">3</div>
+            <div className="how-step-visual">
+              <img src="/generated-assets/anukool_hero_flatlay_1792356742487.jpg" alt="Gift with pride" className="how-step-img" />
+              <div className="how-step-num">3</div>
+            </div>
             <h3>Gift with Pride</h3>
             <p>Personalize the finished piece with names or dates, place it into the included gift box, and experience the unmatched pride of giving something made by your own hands.</p>
           </div>

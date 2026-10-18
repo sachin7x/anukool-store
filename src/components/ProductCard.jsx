@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Plus } from 'lucide-react';
+import { Heart, Plus, Play } from 'lucide-react';
 import { money } from '../lib/utils';
 
 export function ProductCard({ product: p, onAdd, onOpen, saved, onSave, currency = 'INR' }) {
@@ -7,6 +7,11 @@ export function ProductCard({ product: p, onAdd, onOpen, saved, onSave, currency
     <article className="product-card">
       <div className="product-art" style={{ background: p.color }}>
         <span className="product-tag">{p.tag}</span>
+        {p.video && (
+          <span className="product-video-badge" title="Watch maker video reel">
+            <Play size={9} fill="currentColor" /> REEL
+          </span>
+        )}
         <button
           className={saved ? 'save-product saved' : 'save-product'}
           aria-label={saved ? 'Remove from saved' : 'Save kit'}

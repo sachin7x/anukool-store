@@ -88,6 +88,33 @@ function ProductPage({
               </div>
             )}
 
+            {p.video && (
+              <button
+                className="watch-video-btn"
+                onClick={() => {
+                  setActiveTab('video');
+                  document.querySelector('.product-deep-dive')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                style={{
+                  marginTop: 12,
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: 8,
+                  padding: '9px 18px',
+                  background: 'var(--anukool-indigo, #2E3A8A)',
+                  color: '#fff',
+                  border: 0,
+                  borderRadius: 99,
+                  fontSize: 12,
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  width: 'fit-content'
+                }}
+              >
+                <Play size={14} fill="currentColor" /> WATCH MAKING REEL (HD)
+              </button>
+            )}
+
             <div className="trust-row" style={{ padding: '16px 0 0', justifyContent: 'flex-start', gap: 20 }}>
               <div><Paintbrush/><span>Jaipur Handcraft</span></div>
               <div><ShieldCheck/><span>Pre-tested Guide</span></div>
@@ -201,7 +228,7 @@ function ProductPage({
                 <h3>Watch how it comes together</h3>
                 <p>See a real maker unbox and craft this project step-by-step:</p>
                 <div className="product-video-preview">
-                  <video src={p.video} controls playsInline />
+                  <video src={p.video} poster={p.image} controls playsInline />
                 </div>
               </div>
             )}
